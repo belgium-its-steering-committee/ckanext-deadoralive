@@ -2,9 +2,9 @@
 """Tests for logic/action/get.py."""
 import datetime
 
-import ckan.new_tests.helpers as helpers
+import ckan.tests.helpers as helpers
 import ckanext.deadoralive.tests.helpers as custom_helpers
-import ckan.new_tests.factories as factories
+import ckan.tests.factories as factories
 import ckanext.deadoralive.tests.factories as custom_factories
 import ckanext.deadoralive.logic.action.get as get
 import ckanext.deadoralive.config as config

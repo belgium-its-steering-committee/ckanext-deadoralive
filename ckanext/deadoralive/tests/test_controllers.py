@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Frontend tests for controllers.py."""
-import ckan.new_tests.factories as factories
+import ckan.tests.factories as factories
 import ckanext.deadoralive.tests.helpers as custom_helpers
 import ckanext.deadoralive.tests.factories as custom_factories
 import ckanext.deadoralive.config as config

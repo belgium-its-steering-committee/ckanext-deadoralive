@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Tests for logic/action/update.py."""
 
-import ckan.new_tests.helpers as helpers
+import ckan.tests.helpers as helpers
 
 import ckanext.deadoralive.tests.helpers as custom_helpers
 import ckanext.deadoralive.tests.factories as factories

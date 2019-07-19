@@ -50,7 +50,7 @@ def call_auth(auth_name, context, **kwargs):
     '''Call the named ``ckan.logic.auth`` function and return the result.
 
     This is just a convenience function for tests in
-    :py:mod:`ckan.new_tests.logic.auth` to use.
+    :py:mod:`ckan.tests.logic.auth` to use.
 
     Usage::
 

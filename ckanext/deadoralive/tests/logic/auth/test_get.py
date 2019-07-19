@@ -2,7 +2,7 @@
 import nose.tools
 
 import ckan.model as model
-import ckan.new_tests.factories as factories
+import ckan.tests.factories as factories
 import ckan.plugins.toolkit as toolkit
 import ckanext.deadoralive.config as config
 import ckanext.deadoralive.tests.helpers as custom_helpers
