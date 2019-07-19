@@ -136,9 +136,9 @@ def _broken_links_by_organization(context, organization_list, all_results,
             "name": organization["name"],
             "display_name": (organization.get("title")
                              or organization.get("name")),
-            "image_display_url": organization["image_display_url"],
-            "description": organization["description"],
-            "packages": organization["packages"],
+            "image_display_url": organization.get("image_display_url", None),
+            "description": organization.get("description", None),
+            "packages": organization.get("packages", None),
             "datasets_with_broken_links": []}
         num_broken_links = 0
 
