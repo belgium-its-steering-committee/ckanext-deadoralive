@@ -1,10 +1,13 @@
 language: python
+sudo: required
 python:
     - "2.7"
-env: PGVERSION=9.1
+services:
+    - postgresql
+    - redis-server
 install:
-    - ./bin/travis-build.bash
+    - bash bin/travis-build.bash
     - pip install coveralls
-script: ./bin/travis-run.sh
+script: sh bin/travis-run.sh
 after_success:
     - coveralls
