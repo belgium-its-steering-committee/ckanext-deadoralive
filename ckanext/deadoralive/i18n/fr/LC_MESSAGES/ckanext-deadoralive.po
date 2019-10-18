@@ -1,0 +1,113 @@
+# French translations for ckanext-deadoralive.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the ckanext-deadoralive
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-deadoralive 0.1.6\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-10-18 14:08+0200\n"
+"PO-Revision-Date: 2019-10-18 13:50+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:8
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:8
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:12
+msgid "Broken Links"
+msgstr "Liens rompus"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:17
+#: ckanext/deadoralive/templates/broken_links_by_email.html:22
+#: ckanext/deadoralive/templates/broken_links_by_email.html:36
+#: ckanext/deadoralive/templates/broken_links_by_email.html:41
+msgid "{0} broken links"
+msgstr "{0} liens rompus"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:29
+msgid "Email maintainer"
+msgstr "Email admin"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:35
+msgid "No author or maintainer email"
+msgstr "Aucun email d'auteur ou de mainteneur"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:50
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:39
+msgid "This site has no broken links"
+msgstr "Ce site n'a pas de liens rompus"
+
+#: ckanext/deadoralive/templates/admin/base.html:5
+#: ckanext/deadoralive/templates/broken_links_by_email.html:58
+msgid "Broken links"
+msgstr "Liens rompus"
+
+#: ckanext/deadoralive/templates/broken_links_by_email.html:62
+msgid ""
+"These are the maintainers of datasets that have resources which have "
+"broken links within them."
+msgstr "Ce sont les mainteneurs ou les ensembles de données dont les ressources comportent des liens rompus."
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:11
+msgid "Organizations"
+msgstr "Organisations"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:18
+msgid "Organizations with broken links"
+msgstr "Organisations avec des liens rompus"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:27
+msgid "{0} has {1} broken links:"
+msgstr "{0} a {1} lien(s) rompu(s):"
+
+#: ckanext/deadoralive/templates/footer.html:7
+msgid "Broken links on this site"
+msgstr "Liens rompus sur ce site"
+
+#: ckanext/deadoralive/templates/package/snippets/resource_item.html:7
+msgid "Broken"
+msgstr "Rompus"
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:12
+msgid "This resource link is broken"
+msgstr "Ce lien de ressource est rompu"
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:15
+msgid "This resource link was broken when we last checked it on {0}:"
+msgstr "Ce lien a été rompu lors de notre dernière vérification le"
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:18
+msgid "The file could not be downloaded."
+msgstr "Le fichier n'a pas pu être téléchargé."
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:20
+msgid "The server returned an error: {0} {1} {1}."
+msgstr "Le serveur a renvoyé une erreur: {0} {1} {1}."
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:26
+msgid "The link has been broken for the last {0} times that we've checked it."
+msgstr "Le lien a été rompu depuis {0} fois que nous l'avons vérifié."
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:30
+msgid "The link was last working when we checked it on {0}"
+msgstr "Le lien fonctionnait pour la dernière fois lorsque nous l'avons vérifié le {0}."
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:37
+msgid "View a report of all broken resource links on this site"
+msgstr "Afficher un rapport de tous les liens de ressources rompus sur ce site"
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:44
+msgid "This resource link is working"
+msgstr "Ce lien de ressource fonctionne"
+
+#: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:45
+msgid "Last checked on"
+msgstr "Dernière vérification sur"
