@@ -2,6 +2,7 @@
 
 import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+from ckan.lib.plugins import DefaultTranslation
 
 import ckanext.deadoralive.model.results as results
 import ckanext.deadoralive.config as config
@@ -12,7 +13,8 @@ import ckanext.deadoralive.logic.auth.update
 import ckanext.deadoralive.logic.auth.get
 
 
-class DeadOrAlivePlugin(plugins.SingletonPlugin):
+class DeadOrAlivePlugin(plugins.SingletonPlugin, DefaultTranslation):
+    plugins.implements(plugins.ITranslation)
     plugins.implements(plugins.IConfigurable)
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.IActions)
