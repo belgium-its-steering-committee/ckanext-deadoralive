@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-deadoralive 0.1.6\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-18 14:08+0200\n"
+"POT-Creation-Date: 2019-10-25 20:09+0200\n"
 "PO-Revision-Date: 2019-10-18 13:50+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -54,7 +54,9 @@ msgstr "Defekte Links"
 msgid ""
 "These are the maintainers of datasets that have resources which have "
 "broken links within them."
-msgstr "Dies sind die Administrator von Datasets mit Ressourcen, in denen Links defekt sind."
+msgstr ""
+"Dies sind die Administrator von Datasets mit Ressourcen, in denen Links "
+"defekt sind."
 
 #: ckanext/deadoralive/templates/broken_links_by_organization.html:11
 msgid "Organizations"
@@ -67,6 +69,15 @@ msgstr "Organisationen mit defekter Links"
 #: ckanext/deadoralive/templates/broken_links_by_organization.html:27
 msgid "{0} has {1} broken links:"
 msgstr "{0} hat {1} defekte Links:"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:32
+msgid "has"
+msgstr "hat"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:32
+#, fuzzy
+msgid "broken links"
+msgstr "Defekte Links"
 
 #: ckanext/deadoralive/templates/footer.html:7
 msgid "Broken links on this site"
@@ -82,7 +93,9 @@ msgstr "Diese Ressourcenlink ist defekt"
 
 #: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:15
 msgid "This resource link was broken when we last checked it on {0}:"
-msgstr "Diese Ressourcenlink war defekt, als wir sie zuletzt auf {0} überprüft haben:"
+msgstr ""
+"Diese Ressourcenlink war defekt, als wir sie zuletzt auf {0} überprüft "
+"haben:"
 
 #: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:18
 msgid "The file could not be downloaded."
@@ -111,3 +124,4 @@ msgstr "Dieser Ressourcenlink funktioniert"
 #: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:45
 msgid "Last checked on"
 msgstr "Zuletzt überprüft am"
+

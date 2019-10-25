@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ckanext-deadoralive 0.1.6\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-10-18 14:08+0200\n"
+"POT-Creation-Date: 2019-10-25 20:09+0200\n"
 "PO-Revision-Date: 2019-10-18 13:50+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -54,7 +54,8 @@ msgstr "Broken links"
 msgid ""
 "These are the maintainers of datasets that have resources which have "
 "broken links within them."
-msgstr "These are the maintainers of datasets that have resources which have "
+msgstr ""
+"These are the maintainers of datasets that have resources which have "
 "broken links within them."
 
 #: ckanext/deadoralive/templates/broken_links_by_organization.html:11
@@ -68,6 +69,15 @@ msgstr "Organizations with broken links"
 #: ckanext/deadoralive/templates/broken_links_by_organization.html:27
 msgid "{0} has {1} broken links:"
 msgstr "{0} has {1} broken link(s):"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:32
+msgid "has"
+msgstr "has"
+
+#: ckanext/deadoralive/templates/broken_links_by_organization.html:32
+#, fuzzy
+msgid "broken links"
+msgstr "Broken links"
 
 #: ckanext/deadoralive/templates/footer.html:7
 msgid "Broken links on this site"
@@ -112,5 +122,4 @@ msgstr "This resource link is working"
 #: ckanext/deadoralive/templates/snippets/deadoralive_resource_result.html:45
 msgid "Last checked on"
 msgstr "Last checked on"
-
 
