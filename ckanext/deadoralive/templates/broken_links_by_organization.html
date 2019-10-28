@@ -29,7 +29,20 @@
                 {% for dataset in organization.datasets_with_broken_links %}
                   {% set url = h.url_for(controller="package", action="read",
                                          id=dataset.name) %}
-                  <li><a href="{{ url }}">{{ dataset.display_name }}</a> {{ _('has') }} {{ dataset.num_broken_links }} {{ _('broken link(s)') }}</li>
+                  <li><a href="{{ url }}">{{ dataset.display_name }}</a> {{ _('has') }} {{ dataset.num_broken_links }}
+                    {% if h.lang() == 'en %}
+                      {{ _('broken link(s)') }}
+                    {% endif %}
+                    {% if h.lang() == 'nl %}
+                      {{ _('gebroken link(s)') }}
+                    {% endif %}
+                    {% if h.lang() == 'fr %}
+                      {{ _('lien(s) rompu(s)') }}
+                    {% endif %}
+                    {% if h.lang() == 'de %}
+                      {{ _('defekte(r) Link(s)') }}
+                    {% endif %}
+                  </li>
                 {% endfor %}
               </ul>
             </li>
