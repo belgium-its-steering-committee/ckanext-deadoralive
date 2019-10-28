@@ -29,7 +29,7 @@
                 {% for dataset in organization.datasets_with_broken_links %}
                   {% set url = h.url_for(controller="package", action="read",
                                          id=dataset.name) %}
-                  <li><a href="{{ url }}">{{ dataset.display_name }}</a> {{ _('has') }} {{ dataset.num_broken_links }} {{ _('broken links') }}</li>
+                  <li><a href="{{ url }}">{{ dataset.display_name }}</a> {{ _('has') }} {{ dataset.num_broken_links }} {{ _('broken link(s)') }}</li>
                 {% endfor %}
               </ul>
             </li>
