@@ -9,13 +9,13 @@ def get_resources_to_check(context, data_dict):
     return dict(success=False)
 
 
-# @toolkit.auth_allow_anonymous_access
+@toolkit.auth_allow_anonymous_access
 def get(context, data_dict):
     """Anyone can get the broken link report for a resource."""
     return dict(success=False)
 
 
-# @toolkit.auth_allow_anonymous_access
+@toolkit.auth_allow_anonymous_access
 def broken_links_by_organization(context, data_dict):
     """Anyone can see the broken_links_by_organization report."""
     return dict(success=False)
