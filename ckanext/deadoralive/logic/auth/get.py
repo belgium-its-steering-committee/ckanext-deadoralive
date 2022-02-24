@@ -5,8 +5,8 @@ import ckanext.deadoralive.config as config
 
 def get_resources_to_check(context, data_dict):
     """Only the configured users can get the get_resources_to_check API."""
-    # return dict(success=context.get("user") in config.authorized_users)
-    return dict(success=False)
+    return dict(success=context.get("user") in config.authorized_users)
+    # return dict(success=False)
 
 
 @toolkit.auth_sysadmins_check
