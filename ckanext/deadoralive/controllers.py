@@ -67,8 +67,3 @@ class BrokenLinksController(toolkit.BaseController):
         del data_dict["resource_id"]
 
         return self._call_action("resource_show", data_dict, key="url")
-
-    def get_user_status_for_broken_links_view(context, data_dict):
-        user = context['user']
-        user_capacity = data_dict["capacity"]
-        print('user', user, "user_capacity", user_capacity)
