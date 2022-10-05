@@ -10,7 +10,7 @@ class BrokenLinksController(toolkit.BaseController):
             report = toolkit.get_action(
                 "ckanext_deadoralive_broken_links_by_organization")(data_dict={})
         except toolkit.NotAuthorized:
-            toolkit.abort(401)
+            toolkit.abort(401, "not authorized, please login")
         extra_vars = {"organizations": report}
 
         return toolkit.render("broken_links_by_organization.html",
@@ -22,7 +22,7 @@ class BrokenLinksController(toolkit.BaseController):
             report = toolkit.get_action(
                 "ckanext_deadoralive_broken_links_by_email")(data_dict={})
         except toolkit.NotAuthorized:
-            toolkit.abort(401)
+            toolkit.abort(401, "not authorized, please login")
         extra_vars = {"report": report}
 
         return toolkit.render("broken_links_by_email.html",
