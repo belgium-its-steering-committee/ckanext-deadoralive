@@ -1,4 +1,5 @@
 """Authorization functions for the action functions in action/get.py."""
+from sre_constants import SUCCESS
 import ckan.plugins.toolkit as toolkit
 import ckanext.deadoralive.config as config
 
@@ -17,12 +18,12 @@ def get(context, data_dict):
 
 @toolkit.auth_sysadmins_check
 def broken_links_by_organization(context, data_dict):
-    """Anyone can see the broken_links_by_organization report."""
+    """Only sysadmins can see the broken_links_by_organization report."""
     #if context.get(}) is True:
     user = context['auth_user_obj']
     if(user.sysadmin):
         return dict(success=True)
-    return toolkit.abort(401,_('Unauthorized to read'))
+    return dict(success=False)
 
 
 def broken_links_by_email(context, data_dict):
@@ -30,4 +31,4 @@ def broken_links_by_email(context, data_dict):
     user = context['auth_user_obj']
     if(user.sysadmin):
         return dict(success=True)
-    return toolkit.abort(401,_('Unauthorized to read'))
+    return dict(succes=False)
