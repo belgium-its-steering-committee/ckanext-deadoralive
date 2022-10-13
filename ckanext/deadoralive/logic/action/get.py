@@ -99,9 +99,9 @@ def get(context, data_dict):
     :rtype: dict or None
 
     """
-    #toolkit.check_access("ckanext_deadoralive_get", context, data_dict)
 
-    # TODO: Validation.
+    #toolkit.check_access("ckanext_deadoralive_get", context, data_dict)
+    # blocks visitors from reaching datasets
 
     resource_id = data_dict["resource_id"]
 
