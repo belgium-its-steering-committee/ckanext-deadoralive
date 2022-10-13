@@ -99,7 +99,7 @@ def get(context, data_dict):
     :rtype: dict or None
 
     """
-    toolkit.check_access("ckanext_deadoralive_get", context, data_dict)
+    #toolkit.check_access("ckanext_deadoralive_get", context, data_dict)
 
     # TODO: Validation.
 
